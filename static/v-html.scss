@@ -1,0 +1,21 @@
+.article-content blockquote {
+    margin-left: 2.5rem;
+    border-left: 0.3rem solid #b7c3c1;
+}
+.article-content img {
+    max-width: 80%;
+}
+.article-content a {
+    color: blue;
+    padding: 0 0.1rem;
+}
+.article-content a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+    transition: all 0.3s;
+}
+.article-content p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

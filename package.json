@@ -1,32 +1,35 @@
 {
-    "name": "blog4-front",
-    "version": "1.0.0",
-    "description": "blog4 front",
-    "author": "AaronKwong929",
-    "private": true,
-    "scripts": {
-        "dev": "cross-env BASE_URL=http://127.0.0.1:3000 NODE_ENV=development nuxt",
-        "start": "cross-env BASE_URL=http://127.0.0.1:3000 NODE_ENV=development nuxt start",
-        "build": "cross-env BASE_URL=http://127.0.0.1:3000 NODE_ENV=production nuxt build",
-        "generate": "cross-env BASE_URL=http://127.0.0.1:3000 NODE_ENV=production nuxt generate",
-        "commit": "git add . && git cz && git push"
-    },
-    "config": {
-        "commitizen": {
-            "path": "node_modules/cz-conventional-changelog"
-        }
-    },
-    "dependencies": {
-        "axios": "^0.19.2",
-        "element-ui": "^2.4.11",
-        "nuxt": "^2.0.0"
-    },
-    "devDependencies": {
-        "commitizen": "^4.1.2",
-        "cross-env": "^7.0.2",
-        "cz-conventional-changelog": "^3.2.0",
-        "eslint-config-prettier": "^6.10.0",
-        "eslint-plugin-prettier": "^3.1.2",
-        "prettier": "^1.19.1"
+  "name": "blog4-front",
+  "version": "1.0.0",
+  "description": "blog4 front",
+  "author": "AaronKwong929",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env BASE_URL=http://127.0.0.1:3000 NODE_ENV=development nuxt",
+    "start": "cross-env BASE_URL=http://127.0.0.1:3000 NODE_ENV=development nuxt start",
+    "build": "cross-env BASE_URL=http://127.0.0.1:3000 NODE_ENV=production nuxt build",
+    "generate": "cross-env BASE_URL=http://127.0.0.1:3000 NODE_ENV=production nuxt generate",
+    "commit": "git add . && git cz && git push"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "element-ui": "^2.4.11",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "commitizen": "^4.1.2",
+    "cross-env": "^7.0.2",
+    "cz-conventional-changelog": "^3.2.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "node-sass": "^4.14.1",
+    "prettier": "^1.19.1",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2"
+  }
 }
