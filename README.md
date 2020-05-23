@@ -55,6 +55,10 @@ pm2 start npm --name "blog-front" -- run start
 
 ### 部署 docker 稍后补上
 
+## 优化点
+
+1. 设置 hooks 自动拉取推送到 git 的代码然后 build 自动部署
+
 ---
 
 ## 以下属于过场环节
