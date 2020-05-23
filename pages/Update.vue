@@ -30,7 +30,17 @@ export default {
             loading: true,
             logs: [
                 {
+                    title: `V4.1.0`,
+                    contents: [`部署到 Docker`],
+                    timestamp: `2020-6-1`,
+                },
+                {
                     title: `V4.0.0`,
+                    contents: [`开放模块和管理模块分离部署`, `后端使用 Nest.js 重构完成`, `前端使用 Nuxt.js 重构完成`],
+                    timestamp: `2020-5-23`,
+                },
+                {
+                    title: `V3.9.3`,
                     contents: [`对外和管理样式分离`, `首页和时间线页再重写`],
                     timestamp: `2020-04-12`,
                 },

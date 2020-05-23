@@ -1,6 +1,6 @@
 export const getArticleIndex = `/common/article`;
 
-export const getArticleDetails = `/common/getArticleDetails`;
+export const getArticleDetails = `/common/details`;
 
 export const getStatus = `/common/status`
 

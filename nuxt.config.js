@@ -8,7 +8,7 @@ export default {
         nodeEnv: process.env.NODE_ENV
     },
     head: {
-        title: process.env.npm_package_name || '',
+        title: `Aaron's Blog4`,
         meta: [
             { charset: 'utf-8' },
             {
@@ -30,7 +30,7 @@ export default {
     /*
      ** Global CSS
      */
-    css: ['element-ui/lib/theme-chalk/index.css', '@/static/index.scss'],
+    css: ['element-ui/lib/theme-chalk/index.css', '@/static/index.scss', '@/static/atom-one-dark.css'],
     /*
      ** Plugins to load before mounting the App
      */

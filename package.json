@@ -19,6 +19,8 @@
   "dependencies": {
     "axios": "^0.19.2",
     "element-ui": "^2.4.11",
+    "highlight.js": "^10.0.3",
+    "marked": "^1.1.0",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
