@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "cross-env BASE_URL=http://127.0.0.1:3000 NODE_ENV=development nuxt",
-    "start": "cross-env BASE_URL=http://127.0.0.1:3000 NODE_ENV=development nuxt start",
+    "start": "nuxt start",
     "build": "cross-env BASE_URL=http://127.0.0.1:3000 NODE_ENV=production nuxt build",
     "generate": "cross-env BASE_URL=http://127.0.0.1:3000 NODE_ENV=production nuxt generate",
     "commit": "git add . && git cz && git push"

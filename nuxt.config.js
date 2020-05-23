@@ -4,7 +4,7 @@ export default {
      ** Headers of the page
      */
     env: {
-        baseUrl: process.env.BASE_URL,
+        baseUrl: process.env.BASE_URL || 'http://localhost:3000',
         nodeEnv: process.env.NODE_ENV
     },
     head: {
@@ -30,7 +30,11 @@ export default {
     /*
      ** Global CSS
      */
-    css: ['element-ui/lib/theme-chalk/index.css', '@/static/index.scss', '@/static/atom-one-dark.css'],
+    css: [
+        'element-ui/lib/theme-chalk/index.css',
+        '@/static/index.scss',
+        '@/static/atom-one-dark.css'
+    ],
     /*
      ** Plugins to load before mounting the App
      */
@@ -64,19 +68,19 @@ export default {
     server: {
         port: 8080,
         host: 'localhost'
-    },
-    axios: {
-        // proxy: true,
-        // prefix: 'http://127.0.0.1:3000',
-        // baseURL : 'http://127.0.0.1:3000'
-    },
-    proxy: {
-        // '/api': {
-        //   target: 'http://127.0.0.1:3000',
-        //   changeOrigin: true,
-        //   pathRewrite: {
-        //     '^/api': ''
-        //   }
-        // }
     }
+    // axios: {
+    //     // proxy: true,
+    //     // prefix: 'http://127.0.0.1:3000',
+    //     // baseURL : 'http://127.0.0.1:3000'
+    // },
+    // proxy: {
+    //     // '/api': {
+    //     //   target: 'http://127.0.0.1:3000',
+    //     //   changeOrigin: true,
+    //     //   pathRewrite: {
+    //     //     '^/api': ''
+    //     //   }
+    //     // }
+    // }
 };
