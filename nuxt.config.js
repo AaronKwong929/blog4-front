@@ -4,7 +4,7 @@ export default {
      ** Headers of the page
      */
     env: {
-        baseUrl: process.env.BASE_URL || 'http://localhost:3000',
+        baseUrl: process.env.BASE_URL,
         nodeEnv: process.env.NODE_ENV
     },
     head: {
@@ -38,10 +38,7 @@ export default {
     /*
      ** Plugins to load before mounting the App
      */
-    plugins: [
-        '@/plugins/element-ui'
-        // { src: '@/plugins/axios.js', ssr: true }
-    ],
+    plugins: ['@/plugins/element-ui'],
     /*
      ** Nuxt.js dev-modules
      */
@@ -49,12 +46,7 @@ export default {
     /*
      ** Nuxt.js modules
      */
-    modules: [
-        // Doc: https://github.com/nuxt-community/dotenv-module
-        // '@nuxtjs/dotenv',
-        // '@nuxtjs/axios',
-        // '@nuxtjs/proxy'
-    ],
+    modules: [],
     /*
      ** Build configuration
      */
@@ -66,21 +58,7 @@ export default {
         extend(config, ctx) {}
     },
     server: {
-        port: 8080,
-        host: 'localhost'
+        port: 8000,
+        host: '0.0.0.0'
     }
-    // axios: {
-    //     // proxy: true,
-    //     // prefix: 'http://127.0.0.1:3000',
-    //     // baseURL : 'http://127.0.0.1:3000'
-    // },
-    // proxy: {
-    //     // '/api': {
-    //     //   target: 'http://127.0.0.1:3000',
-    //     //   changeOrigin: true,
-    //     //   pathRewrite: {
-    //     //     '^/api': ''
-    //     //   }
-    //     // }
-    // }
 };

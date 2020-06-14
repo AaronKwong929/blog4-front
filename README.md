@@ -41,7 +41,7 @@ export default {
 打包出来的 .nuxt 文件夹，以及 nuxt.config.js, package.json，static 文件夹丢到服务器上
 
 ```cmd
-npm install -production
+npm install --production
 ```
 
 ### 进入到项目文件夹下
@@ -50,10 +50,6 @@ npm install -production
 npm run start
 pm2 start npm --name "blog-front" -- run start
 ```
-
-### 配置 nginx 稍后补上
-
-### 部署 docker 稍后补上
 
 ## 优化点
 
